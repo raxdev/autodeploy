@@ -12,21 +12,15 @@ choco install -y paint.net
 choco install -y screentogif
 choco install -y zoomit
 winget install -e -h --id WinDirStat.WinDirStat
-winget install -e -h --id Microsoft.BingWallpaper
+winget install -e --id Ghisler.TotalCommander
 winget install -e -h --id Obsidian.Obsidian
 winget install -e -h --id JohnMacFarlane.Pandoc
 winget install -e -h --id Microsoft.Whiteboard -s msstore
 winget install -e -h --id Microsoft.PowerToys # settings to sync
-# Already  installed by default
-# winget install -e -h --id Microsoft.Teams
-# winget install -e -h --id Microsoft.Office
-winget install -e -h --id Logitech.Options
-winget install -e -h --id Dell.DisplayManager
 
 # ---------------------------------------------- #
 # Dev tools  ----------------------------------- #
 # ---------------------------------------------- #
-winget install -e -h --id AndreasWascher.RepoZ
 winget install -e -h --id CoreyButler.NVMforWindows
 iwr https://get.pnpm.io/install.ps1 -useb | iex
 # iwr -useb get.scoop.sh | iex
@@ -84,7 +78,9 @@ winget install -e -h --id Pulumi.Pulumi
 winget install -e -h --id Microsoft.AzureFunctionsCoreTools
 # Azurite can be installed through vscode extension or as a global npm package
 # pnpm add -g azurite
-
+winget install -e -h --id Postman.Postman
+winget install -e -h --id Notepad++.Notepad++
+winget install -e -h --id Telerik.Fiddler
 
 
 # ---------------------------------------------- #
