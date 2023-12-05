@@ -2,6 +2,7 @@
 ## To avoid security concerns you can comment it if you prefer, otherwhise please check the software you install is safe and use this command at your own risk.
 Disable-UAC
 $Boxstarter.AutoLogin=$false
+
 # Install git and clone repository containing scripts and config files
 # TODO: see how to improve install that by using chezmoi (choco install -y chezmoi)
 choco install -y git --params "/GitOnlyOnPath /NoShellIntegration /WindowsTerminal"
@@ -18,6 +19,10 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\AppData\Local\Packages\M
 
 #--- Enable developer mode on the system ---
 Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\AppModelUnlock -Name AllowDevelopmentWithoutDevLicense -Value 1
+
+choco install Microsoft-Hyper-V-All -source windowsFeatures
+choco install IIS-WebServerRole -source windowsfeatures
+
 
 #--- Setting up Windows ---
 . "$env:USERPROFILE\autodeploy\scripts\FileExplorerSettings.ps1"
