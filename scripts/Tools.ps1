@@ -82,9 +82,6 @@ winget install -e -h --id Postman.Postman
 winget install -e -h --id Notepad++.Notepad++
 winget install -e -h --id Telerik.Fiddler
 
-choco install Microsoft-Hyper-V-All -source windowsFeatures
-choco install IIS-WebServerRole -source windowsfeatures
-
 
 # ---------------------------------------------- #
 # Blog tools  ---------------------------------- #

@@ -37,7 +37,12 @@ This repository contains the tools I like to use, my config files, my preference
 
 Only a click on the **Install** link below is needed to kaunch the installation. Please make sure you have updated the link with the corresponding path on your fork.
 
-[Install](https://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/raxdev/autodeploy/main/boxstarter.ps1)
+[Install main](https://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/raxdev/autodeploy/main/boxstarter.ps1)
+
+[Install IDE](https://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/raxdev/autodeploy/main/boxstarter_ide.ps1)
+
+[Install Tools](https://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/raxdev/autodeploy/main/boxstarter_tools.ps1)
+
 
 ## Disclaimer
 
