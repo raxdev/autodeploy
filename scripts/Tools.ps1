@@ -37,8 +37,8 @@ winget install -e -h --id JanDeDobbeleer.OhMyPosh
 # ---------------------------------------------- #
 winget install -e -h --id Microsoft.PowerShell
 # Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-Remove-Item -Path "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Force
-New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "$env:USERPROFILE\autodeploy\config\powerShell\Microsoft.PowerShell_profile.ps1"
+#Remove-Item -Path "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Force
+#New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1" -Target "$env:USERPROFILE\autodeploy\config\powershell\Microsoft.PowerShell_profile.ps1"
 
 # ---------------------------------------------- #
 # NuShell  ---------------------------------- #
