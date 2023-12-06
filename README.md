@@ -6,8 +6,6 @@ Contains everything to setup my developer environment.
 
 ## How does this work?
 
-[Boxstarter](https://boxstarter.org/) is used to avoid interruptions during installation and to launch the installation directly from an [URL](https://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/TechWatching/dotfiles/features/initialization/boxstarter.ps1) without manually downloading any software before. 
-
 The setup is automated using [PowerShell](https://docs.microsoft.com/en-us/powershell/) scripts.
 
 Software is installed using 2 different package managers for Windows: 

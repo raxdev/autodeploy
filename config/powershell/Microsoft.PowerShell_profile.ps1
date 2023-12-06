@@ -1,5 +1,5 @@
 Import-Module posh-git
-oh-my-posh init pwsh --config "$env:USERPROFILE\dotfiles\config\prompt\.oh-my-posh.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:USERPROFILE\autodeploy\config\prompt\.oh-my-posh.omp.json" | Invoke-Expression
 
 # PowerShell parameter completion shim for the dotnet CLI
 Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {

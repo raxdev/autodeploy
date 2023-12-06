@@ -22,7 +22,7 @@
 	helper = manager
 [alias]
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	bcl = !nu $HOME\"\\dotfiles\\config\\nu\\gitalias_bcl.nu\"
+	bcl = !nu $HOME\"\\autodeploy\\config\\nu\\gitalias_bcl.nu\"
 	pf = push origin --force-with-lease
 	new = lg main..HEAD
 	missing = lg HEAD..main
