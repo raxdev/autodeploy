@@ -15,7 +15,7 @@ New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\AppData\Local\Packages\M
 
 
 #--- Setting up Windows ---
-. "$env:USERPROFILE\autodeploy\scripts\IDEs.ps1"
+. "$env:USERPROFILE\autodeploy\scripts\Tools.ps1"
 
 #--- reenabling critial items ---
 Enable-UAC
