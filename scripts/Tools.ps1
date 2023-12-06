@@ -78,9 +78,71 @@ winget install -e -h --id Pulumi.Pulumi
 winget install -e -h --id Microsoft.AzureFunctionsCoreTools
 # Azurite can be installed through vscode extension or as a global npm package
 # pnpm add -g azurite
+
+
+# ---------------------------------------------- #
+# Development aides  --------------------------- #
+# ---------------------------------------------- #
+
+
 winget install -e -h --id Postman.Postman
 winget install -e -h --id Notepad++.Notepad++
 winget install -e -h --id Telerik.Fiddler
+winget install -e --id WiresharkFoundation.Wireshark
+winget install -e --id LutzRoeder.Netron
+winget install -e --id Evolus.Pencil
+
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id TortoiseGit.TortoiseGit
+
+winget install -e --id ImageMagick.ImageMagick
+winget install -e --id Anaconda.Anaconda3
+winget install -e --id LINQPad.LINQPad.7
+winget install -e --id WinMerge.WinMerge
+
+
+# ---------------------------------------------- #
+# Databases          --------------------------- #
+# ---------------------------------------------- #
+winget install -e --id MongoDB.Server
+winget install -e --id MongoDB.DatabaseTools
+winget install -e --id MongoDB.Shell
+winget install -e --id MongoDB.Compass.Community
+
+winget install -e --id Microsoft.SQLServerManagementStudio
+winget install -e --id Microsoft.SQLServer.2019.Developer
+
+
+
+# ---------------------------------------------- #
+# VPN Clients        --------------------------- #
+# ---------------------------------------------- #
+
+winget install -e --id NordVPN.NordVPN
+winget install -e --id Fortinet.FortiClientVPN
+winget install -e --id OpenVPNTechnologies.OpenVPN
+
+# ---------------------------------------------- #
+# Assorted tools     --------------------------- #
+# ---------------------------------------------- #
+
+
+winget install -e --id GIMP.GIMP
+winget install -e --id Balena.Etcher
+winget install -e --id calibre.calibre
+winget install -e --id Google.EarthPro
+winget install -e --id clsid2.mpc-hc
+
+
+winget install -e --id SublimeHQ.SublimeText.4
+winget install -e --id Cyanfish.NAPS2
+winget install -e --id RealVNC.VNCViewer
+
+winget install -e --id IrfanSkiljan.IrfanView
+winget install -e --id CPUID.HWMonitor
+winget install -e --id Piriform.CCleaner
+winget install -e --id Piriform.Recuva
+
 
 
 # ---------------------------------------------- #
