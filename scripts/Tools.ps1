@@ -29,7 +29,7 @@ winget install -e -h --id GitHub.cli
 # ---------------------------------------------- #
 # Prompt  -------------------------------------- #
 # ---------------------------------------------- #
-pwsh -Command { Install-Module posh-git -Scope CurrentUser -Force}
+# pwsh -Command { Install-Module posh-git -Scope CurrentUser -Force}
 winget install -e -h --id JanDeDobbeleer.OhMyPosh
 
 # ---------------------------------------------- #
