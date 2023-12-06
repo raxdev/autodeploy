@@ -143,6 +143,12 @@ winget install -e --id CPUID.HWMonitor
 winget install -e --id Piriform.CCleaner
 winget install -e --id Piriform.Recuva
 
+winget install -e --id Adobe.Acrobat.Reader.64-bit
+winget install -e --id AnyDeskSoftwareGmbH.AnyDesk
+
+choco install sysinternals
+
+
 
 
 # ---------------------------------------------- #
